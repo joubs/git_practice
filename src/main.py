@@ -8,6 +8,9 @@ from src.time import clock
 def anothersuperfeature():
     return 300
 
+def mynewfeature():
+    return 100
+
 @clock
 def fft_array(arr: ndarray):
     return fft(arr)
