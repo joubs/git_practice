@@ -5,6 +5,9 @@ from numpy.random import randn
 from src.time import clock
 
 
+def anothersuperfeature():
+    return 300
+
 @clock
 def fft_array(arr: ndarray):
     return fft(arr)
